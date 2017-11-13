@@ -1,0 +1,37 @@
+body{
+	background-image:url(..//pictures 2/123.jpg);
+	margin: 8px;
+	margin-top: 0px; 
+}
+
+a:hover{
+	color: blue;
+}
+a {
+	color: green;
+}
+
+.
+}
+
+p {
+	font-family: "Cambria";
+}
+h2 {
+	font-family: "Cambria";
+}
+    
+img {
+	float: left;
+	margin: 7px   7px 7px;
+}
+li {
+	color: blue;
+	font-size: 20px;
+	font-family: "Tahoma";
+	font-weight: bold;
+}
+.table {
+	color: violet;
+	font-size: 20px;
+}
