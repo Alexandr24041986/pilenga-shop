@@ -1,12 +1,18 @@
 @import url(grid.css);
 
+
+
+.container_1 {
+	margin-top: 20px;
+	width: 60%;
 }
 .menu 
 {
 	
 	width: 100%;
 	height: 80px;
-	background-color:#e6ffe6;
+	
+	margin-left: 50%;
 
 }
 
@@ -15,10 +21,7 @@
 	left: 600px;
 }
 
-.logo 
-{
-	display: inline;
-}
+
 .figure 
 {
 	display: inline;
@@ -36,6 +39,12 @@
 	font-family: Tahoma;
 	font-size: 25px;
 	font-weight: bold;
+	text-align: center;
+}
+.text {
+	font-size: 20px;
+}
+
 }
 .menu ul 
 {
@@ -71,13 +80,7 @@
 {
 	color: lime;
 }
-.image 
-{
-	width: 100%;
-	padding-top: 50px;
-	margin: 0px;
-	
-}
+
 
 p 
 {
