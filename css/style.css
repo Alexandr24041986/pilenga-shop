@@ -1,37 +1,91 @@
-body{
-	background-image:url(..//pictures 2/123.jpg);
-	margin: 8px;
-	margin-top: 0px; 
+@import url(grid.css);
+
+}
+.menu 
+{
+	
+	width: 100%;
+	height: 80px;
+	background-color:#e6ffe6;
+
 }
 
-a:hover{
-	color: blue;
-}
-a {
-	color: green;
+.fixed {
+	position: fixed;
+	left: 600px;
 }
 
-.
+.logo 
+{
+	display: inline;
 }
-
-p {
-	font-family: "Cambria";
-}
-h2 {
-	font-family: "Cambria";
-}
-    
-img {
+.figure 
+{
+	display: inline;
 	float: left;
-	margin: 7px   7px 7px;
+	width: 50%;
 }
-li {
-	color: blue;
-	font-size: 20px;
-	font-family: "Tahoma";
+.figure1 
+{
+	display: inline;
+	float: right;
+	width: 40%;
+}
+
+.footer {
+	font-family: Tahoma;
+	font-size: 25px;
 	font-weight: bold;
 }
-.table {
-	color: violet;
-	font-size: 20px;
+.menu ul 
+{
+
+	margin: 0px;
+	padding: 10px;
+	text-decoration: none;
 }
+.menu li
+{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	padding-left: 25px;
+
+
+}
+
+
+.menu a 
+{
+	color: green;
+	display: inline-block;
+	padding: 0px;
+	text-decoration: none;
+	text-align: center;
+	margin: 0;
+	font-size: 25px;
+	font-weight:bold;
+	
+}
+.menu a:hover 
+{
+	color: lime;
+}
+.image 
+{
+	width: 100%;
+	padding-top: 50px;
+	margin: 0px;
+	
+}
+
+p 
+{
+	font-family: "Cambria";
+}
+h2 
+{
+	font-family: "Cambria";
+}
+
+
