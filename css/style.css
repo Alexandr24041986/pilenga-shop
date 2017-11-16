@@ -1,6 +1,10 @@
 @import url(grid.css);
 
-
+.container_2 {
+	border-radius: 10px;
+	height: 150px;
+	width: 100%;
+}
 
 .container_1 {
 	margin-top: 20px;
