@@ -38,7 +38,9 @@
 	float: right;
 	width: 40%;
 }
-
+.lk {
+	text-align: center;
+}
 .footer {
 	font-family: Tahoma;
 	font-size: 25px;
@@ -48,6 +50,38 @@
 .text {
 	font-size: 20px;
 }
+.our_email{
+	text-align: center;
+}
+.submit{
+	text-align: center;
+	border-radius: 10px;
+
+}
+.registration a:hover{
+	color: lime;
+}
+.our_email a:hover{
+	color: lime;
+}
+.our_email a{
+	color: green;
+}
+.button {
+	text-align: center;
+}
+.button a:hover{
+	color: lime;
+
+}
+.contact ul{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+.contact li{
+	display: block;
+	text-align: center;
 
 }
 .menu ul 
