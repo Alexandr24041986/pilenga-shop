@@ -70,6 +70,7 @@ body {
 .disk,
 .drums {
 	border: 5px solid #009900;
+	border-radius: 10px;
 	height: 500px;
 	background: #d9f2d9;
 	margin-right: 10px;
