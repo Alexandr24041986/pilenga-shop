@@ -1,0 +1,183 @@
+html,body {
+	height: 100%;
+	margin: 0;
+	background: #e5ccff;
+
+
+}
+
+
+
+
+.container {
+	height: 100%;
+	margin: 0 auto;
+	max-width: 1200px;
+	}
+.container2 {
+	display: flex;
+	flex-direction: row;
+	max-width: 1200px;
+	height: 100%;
+
+}
+.main {
+    width: 1200px;
+	display: flex;
+	flex-direction: column;
+
+}
+.container3 {
+	width: 600px;
+	
+}
+.container4 {
+	width: 600px;
+	
+}
+.container3-1 {
+
+	height: 300px;
+	width: 600px;
+	
+}
+
+.container3-1-1 {
+	flex: 1
+	
+}
+
+
+.container3-1-2 {
+	flex: 1
+	
+	
+}
+
+.container3-2-1 {
+	width: 600px;
+	height: 400px;
+	/*background-color: #66ffff;*/
+	
+	
+
+}
+.container3-2-1 img {
+	width: 150px;
+	height: 150px;
+	padding-left: 3px;
+	padding-right:3px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	
+
+}
+.container3-2-2 {
+	width: 600px;
+	height: 400px;
+	/*background-color: #ff66ff;*/
+	
+	padding-right: 0px;
+    padding-left: 2px;
+	
+
+}
+
+.container4-1 {
+	width: 300px;
+	/*background: green;*/
+	
+	
+
+}
+.container4-2{
+	width: 300px;
+	/*background: red;*/
+	
+
+}
+
+
+.row-container {
+	display: flex;
+}
+.column-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.pictures img {
+	width: 80px;
+	height: 80px;
+}
+
+ul {
+	margin: 5px;
+	padding: 0;
+	justify-content: space-between;
+
+	
+}
+
+li {
+	background: #ff99ff;
+    flex: 0 auto;
+    list-style-type: none;
+    padding: 20px 60px;
+    box-shadow: 3px 3px 3px 0 #333333;
+    border-radius:50%;
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 18px;
+}
+.margin-right {
+	margin: 3px;
+}
+.margin-left {
+margin: 3px;
+}
+.margin-bottom {
+	margin-bottom: 5px;
+}
+
+.margin-top {
+	margin-top: 10px;
+}
+.padding {
+	padding: 5px;
+}
+.shadow:hover{
+	box-shadow: 0 0 16px 5px #ff4dd2;
+}
+p {
+	font-size: 18px;
+	font-family: Cambria;
+	width: 460px;
+	padding: 3px;
+	justify-content: center;
+
+}
+img {
+	width: 295px;
+	height: 210px;
+	
+	padding:0px;
+}
+
+.container4-2 img {
+
+    width: 140px;
+    
+    height: 140px;
+    padding: 5px;
+}
+a:hover {
+	color: #ff4dd2;
+	font-size: 25px;
+}
+
+.history {
+	width: 300px;
+	height: 871px;
+}
+	
