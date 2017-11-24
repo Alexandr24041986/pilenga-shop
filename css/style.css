@@ -1,7 +1,8 @@
 @import "grid.css";
 @import "style.css";
 
-body {
+body 
+{
 
 	background-color: #ccffdd;
 	margin: 0;
@@ -9,7 +10,8 @@ body {
 
 
 
-.menu {
+.menu 
+{
 	
 	top: 0;
 	left: 0;
@@ -18,10 +20,11 @@ body {
 }
 
 
-}
 
 
-.logo {
+
+.logo 
+{
 	margin-top: 50px;
 	text-align: center;
 	padding-left: 50%;
@@ -30,16 +33,19 @@ body {
 
 }
 
-.menu ul {
+.menu ul
+ {
 	text-align: center;
 }
 
-.menu li {
+.menu li 
+{
 	display: inline-block;
 }
 
 
-.menu a {
+.menu a
+ {
 	color: #009900;
 	text-decoration: bold;
 	display: inline-block;
@@ -48,19 +54,18 @@ body {
 
 }
 
-.menu a:hover {
+.menu a:hover{
 	color: red;
-
 }
 
 
-.container1 {
-	max-width: 1000px;
+.container {
+	max-width: 1200px;
 	margin: 0 auto;
-
 }
 
-.container2 {
+.container2
+ {
 	max-width: 1000px;
 	margin: 0 auto;
 }
@@ -68,7 +73,8 @@ body {
 
 .clutchkit,
 .disk,
-.drums {
+.drums 
+{
 	border: 5px solid #009900;
 	border-radius: 10px;
 	height: 500px;
@@ -77,82 +83,173 @@ body {
 	margin-left: 10px;
 
 }
+.container a
+{
+	text-decoration: none;
+	color: #009900;
+}
+.container a:hover
+{
+	color: red;
+}
+
+
 .clutchkit p,
 .disk p,
-.drums p {
+.drums p 
+{
 	font-family: Tahoma;
-	font-size: 20px;
+	font-size: 14px;
 	text-decoration: bold;
-	margin: 2px;
+	padding: 4px;
+	margin: 14px;
 }
 
 
 .clutchkit img,
 .disk img,
 .drums img {
-	padding: 0;
+	padding: 14px;
 	margin: 0;
 	height: 160px;
 	width: 160px;
 
 }
 
-.item {
+.item 
+{
 	height: 300px
 }
 
-.item img {
+.item img 
+{
 	height: 200px;
 	width: 271.75px;
 }
 
-.history h2 {
+ h2 
+{
 	text-decoration: bold;
 	font-family: Cambria;
 	font-size: 20px;
-	margin: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 	text-align: center;
+
+	
+	
 }
 
-.txt {
+.txt 
+{
 	text-align: center;
 	font-family: Cambria;
 	font-size: 12px;
 	text-decoration: bold;
+	margin: 30px;
+	padding: 30px;
 }
 
-.contact ul {
+.contact ul
+ {
 	display: inline;
 	text-align: center;
 	text-decoration: none;
 
 }
 
-.our_email a:hover{
+.our_email a:hover
+{
 	color: red;
 
 }
 
-.registration a:hover{
+.registration a:hover
+{
 	color:red;
 
 }
 
-.submit {
+.submit 
+{
 	text-align: center;
 	 border-radius:10px; 
 }
 
-.table fieldset {
+.table fieldset 
+{
 	border-radius: 10px;
 	border: 3px solid #009900;
 	background: #d9f2d9;
 }
 
-.pole {
-	border-radius: 10px;
+.pole
+ {
+	border-radius: 7px;
 	border: 3px solid #009900;
 	background: #d9f2d9;
 	width: 25%;
 	
 }
+
+.field {
+	clear: both;
+	text-align: right;
+}
+label {
+	float: left;
+}
+.footer{
+	position: absolute;
+	width: 100%;
+	height: 35px;
+	background-color: #ccffdd;
+
+}
+.footer p {
+	font-size: 35px;
+	font-family: Cambria;
+	font-style: inherit;
+	font-weight: bolder;
+	text-decoration: blink;
+	text-align: center;
+	color: darkgreen;
+}
+@media  (min-width: 480px)
+ and (max-width: 761px){
+	.col-12-sm {
+		width: 100%;
+		margin-top: 4px;
+		margin-bottom: 4px;
+	}
+	.col-12-sm p{
+		font-family: Arial;
+		font-size: 1em;
+	}
+	.col-12-sm h2{
+		font-size: 1em;
+	}
+	/*body {
+		background-color: #D962C7;
+	}*/
+
+}
+@media (min-width:761px ) 
+ and (max-width: 1200px){
+ 	.col-12-md {
+ 		width: 100%;
+ 		margin-top: 8px;
+		margin-bottom: 8px;
+ 		
+ 	}
+ 	.col-12-md p{
+		font-family: Booking Old Style;
+		font-size: 1.1em;
+ 	}
+ 	.col-12-md h2{
+ 		font-size: 1.5em;
+ 	}
+ 	/*body {
+ 		background: #7D9F00 
+ 	}*/
+ }
