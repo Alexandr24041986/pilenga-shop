@@ -217,16 +217,16 @@ label {
 }
 @media  (min-width: 480px)
  and (max-width: 761px){
-	.col-12-sm {
+	.col-12-md {
 		width: 100%;
 		margin-top: 4px;
 		margin-bottom: 4px;
 	}
-	.col-12-sm p{
+	.col-12-md p{
 		font-family: Arial;
 		font-size: 1em;
 	}
-	.col-12-sm h2{
+	.col-12-md h2{
 		font-size: 1em;
 	}
 	/*body {
@@ -236,17 +236,17 @@ label {
 }
 @media (min-width:762px ) 
  and (max-width: 1200px){
- 	.col-12-md {
+ 	.col-12-lg {
  		width: 100%;
  		margin-top: 8px;
 		margin-bottom: 8px;
  		
  	}
- 	.col-12-md p{
+ 	.col-12-lg p{
 		font-family: Booking Old Style;
 		font-size: 1.1em;
  	}
- 	.col-12-md h2{
+ 	.col-12-lg h2{
  		font-size: 1.5em;
  	}
  	/*body {
