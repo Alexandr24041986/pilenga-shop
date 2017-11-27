@@ -18,19 +18,10 @@ body
 	right: 0;
 	background-color: #ccffdd;
 }
-
-
-
-
-
 .logo 
 {
-	margin-top: 50px;
-	text-align: center;
-	padding-left: 50%;
-	width: 300px;
-	height: 150px;
-
+	max-width: 100%;
+	height:auto;
 }
 
 .menu ul
@@ -41,6 +32,12 @@ body
 .menu li 
 {
 	display: inline-block;
+
+}
+li a{
+	text-decoration: none;
+	padding: 0;
+	margin-top: 0;
 }
 
 
@@ -60,8 +57,9 @@ body
 
 
 .container {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
+	height: auto;
 }
 
 .container2
@@ -75,12 +73,12 @@ body
 .disk,
 .drums 
 {
-	border: 5px solid #009900;
+	border: 1px solid #009900;
 	border-radius: 10px;
-	height: 500px;
+	height: 300px;
 	background: #d9f2d9;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
 
 }
 .container a
@@ -109,10 +107,13 @@ body
 .clutchkit img,
 .disk img,
 .drums img {
+	display: block;
+	float: left;
 	padding: 14px;
-	margin: 0;
-	height: 160px;
-	width: 160px;
+	margin: 0 10px 10px 0;
+	height: auto;
+	width: 30%;
+	min-width: 150px;
 
 }
 
@@ -129,7 +130,6 @@ body
 
  h2 
 {
-	text-decoration: bold;
 	font-family: Cambria;
 	font-size: 20px;
 	margin-left: 20px;
@@ -215,41 +215,36 @@ label {
 	text-align: center;
 	color: darkgreen;
 }
-@media  (min-width: 480px)
- and (max-width: 761px){
+@media (max-width: 479px) {
+	.col-12-sm {
+		width: 100%
+
+	}
+	.col-12-sm h2 {
+		font-size: 0.9em;
+	}
+	.col-12-sm p {
+		font-size: 0.6em;
+	}	
+	.logo 
+{
+	max-width: 100%;
+	height:auto;
+}
+}
+@media (min-width: 480px) and (max-width: 954px) {
 	.col-12-md {
 		width: 100%;
-		margin-top: 4px;
-		margin-bottom: 4px;
-	}
-	.col-12-md p{
-		font-family: Arial;
-		font-size: 1em;
-	}
-	.col-12-md h2{
-		font-size: 1em;
-	}
-	/*body {
-		background-color: #D962C7;
-	}*/
-
-}
-@media (min-width:762px ) 
- and (max-width: 1200px){
- 	.col-12-lg {
- 		width: 100%;
- 		margin-top: 8px;
-		margin-bottom: 8px;
- 		
- 	}
- 	.col-12-lg p{
-		font-family: Booking Old Style;
+		}
+	.col-12-md h2 {
 		font-size: 1.1em;
- 	}
- 	.col-12-lg h2{
- 		font-size: 1.5em;
- 	}
- 	/*body {
- 		background: #7D9F00 
- 	}*/
- }
+	}
+	.col-12-sm p {
+		font-size: 0.8em;
+	}
+	.logo 
+{
+	max-width: 100%;
+	height:auto;
+}
+}
